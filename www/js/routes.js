@@ -9,27 +9,6 @@ angular.module('app.routes', [])
   $stateProvider
     
   
-
-      .state('menu.trivia', {
-    url: '/trivia',
-    views: {
-      'side-menu21': {
-        templateUrl: 'templates/trivia.html',
-        controller: 'triviaCtrl'
-      }
-    }
-  })
-
-  .state('menu.piano', {
-    url: '/piano',
-    views: {
-      'side-menu21': {
-        templateUrl: 'templates/piano.html',
-        controller: 'pianoCtrl'
-      }
-    }
-  })
-
   .state('menu', {
     url: '/menu',
     templateUrl: 'templates/menu.html',
