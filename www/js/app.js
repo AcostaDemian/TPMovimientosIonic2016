@@ -23,7 +23,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('pikachu', 'sounds/pikachu.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('BocaAbajo', 'sounds/BocaAbajo.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
@@ -31,7 +31,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('haunter', 'sounds/haunter.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('BocaArriba', 'sounds/BocaArriba.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
@@ -39,7 +39,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('mrmine', 'sounds/mrmine.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('arriba', 'sounds/arriba.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
@@ -47,7 +47,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('ninetales', 'sounds/ninetales.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('abajo', 'sounds/abajo.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
@@ -55,7 +55,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('rapidash', 'sounds/rapidash.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('izquierda', 'sounds/izquierda.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
@@ -63,11 +63,15 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
 
     if( window.plugins && window.plugins.NativeAudio ) {
       // Preload audio resources
-      window.plugins.NativeAudio.preloadSimple('charizard', 'sounds/charizard.wav', function(msg){
+      window.plugins.NativeAudio.preloadSimple('derecha', 'sounds/derecha.m4a', function(msg){
       }, function(msg){
           console.log( 'error: ' + msg );
       }
     )}
+
+
+
+
 
   });
 })
