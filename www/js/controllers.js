@@ -24,6 +24,11 @@ function ($scope, $stateParams) {
 // TIP: Access Route Parameters for your page via $stateParams.parameterName
 function ($scope, $stateParams,$cordovaDeviceMotion,$cordovaMedia) {
 
+
+  document.addEventListener("deviceready", function () {
+    screen.lockOrientation('portrait');
+    });
+
   $scope.x;
   $scope.y;
   $scope.z;  
